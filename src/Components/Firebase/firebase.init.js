@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDApSnXiwbubfpfJrDNQaPHPkH8JHbifvM",
-  authDomain: "toy-universe-3b566.firebaseapp.com",
-  projectId: "toy-universe-3b566",
-  storageBucket: "toy-universe-3b566.firebasestorage.app",
-  messagingSenderId: "1023054543241",
-  appId: "1:1023054543241:web:2c6d887e70b2dc5a538958",
-  measurementId: "G-D33P8WZ8SS"
+  apiKey: "AIzaSyDW3SH47-jlaODvKyz9O4HosdWWtV_cjAA",
+  authDomain: "gamehub-2bc5c.firebaseapp.com",
+  projectId: "gamehub-2bc5c",
+  storageBucket: "gamehub-2bc5c.firebasestorage.app",
+  messagingSenderId: "381767461911",
+  appId: "1:381767461911:web:edd2c3b3c6b1789dbe0052",
+  measurementId: "G-EMWBVGGWGV"
 };
 
 // Initialize Firebase
