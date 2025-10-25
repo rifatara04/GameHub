@@ -9,7 +9,6 @@ const UpdateInfo = () => {
 
     const { userInfo, updateUserInfo } = use(AuthContext)
 
-
     const updateInfo = (e) => {
         e.preventDefault();
         const name = e.target.name.value;
