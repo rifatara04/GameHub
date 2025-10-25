@@ -22,7 +22,7 @@ const Navbar = () => {
 
         {
             userInfo ? <li className='flex flex-row gap-2 justify-center items-center'><img onClick={() => { navigate('/MyProfile') }} className='w-10 h-10 p-0 m-0 bg-white' src={userInfo.photoURL} alt="" /> <NavLink onClick={userLogOutFunc} className={"btn btn-primary text-white shadow-none"} to={"/Auth/Login"}>Log Out</NavLink></li> :
-                <li><NavLink className={"btn btn-primary text-white shadow-none"} to={"/Auth/Login"}>Login</NavLink></li>
+                <li><NavLink className={"btn btn-primary text-white shadow-none"} to={"/Auth/Login"}>Login/Registration</NavLink></li>
         }
     </>
 
