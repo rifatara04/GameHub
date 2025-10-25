@@ -8,7 +8,6 @@ import { motion } from "motion/react"
 const PopularGames = () => {
     const { dataGot } = use(DataContext);
 
-    
     const highToLow = dataGot.slice().sort((a, b) => parseFloat(b.ratings) - parseFloat(a.ratings));
     const LowToHigh = dataGot.slice().sort((a, b) => parseFloat(a.ratings) - parseFloat(b.ratings));
     

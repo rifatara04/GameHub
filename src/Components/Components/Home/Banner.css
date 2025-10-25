@@ -42,9 +42,6 @@
   color: white;
 }
 
-
-
-
 .SinglePopularGame.image-full::before {
   /* background-color: rgba(0, 0, 0, 0.2) !important; */
   background-color: red;
