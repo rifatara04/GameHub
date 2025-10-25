@@ -25,9 +25,7 @@ const AuthLogin = () => {
     const location = useLocation()
 
 
-
     const from = location.state?.from || '/';
-
 
 
     const userLogin = (e) => {
@@ -38,7 +36,6 @@ const AuthLogin = () => {
             .then(result => {
                 toast("Successfully Logged In!", { style: { background: "#12d369", color: "white" } })
                 navigation(from);
-
 
 
             }).catch(error => {
@@ -65,7 +62,6 @@ const AuthLogin = () => {
     const checkEye = () => {
         setEye(!eye)
     }
-
 
 
     return (
