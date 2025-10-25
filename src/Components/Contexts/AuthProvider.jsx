@@ -4,7 +4,6 @@ import { auth } from '../Firebase/firebase.init';
 import { AuthContext } from './AuthContext';
 import { GoogleAuthProvider } from "firebase/auth";
 
-
 const AuthProvider = ({children}) => {
     const provider = new GoogleAuthProvider();
 

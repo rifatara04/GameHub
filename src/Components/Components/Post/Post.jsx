@@ -7,8 +7,6 @@ const Post = () => {
     const { id: paramId } = useParams();
     const { dataGot } = useContext(DataContext);
 
-
-
     const postInfo = dataGot.find(item => item.id === paramId)
 
     if (postInfo == undefined) {
@@ -19,7 +17,6 @@ const Post = () => {
             </div>
         )
     }
-
 
     return (
         <div className='flex flex-col justify-center items-center gap-5 mt-10 p-2 lg:p-0'>

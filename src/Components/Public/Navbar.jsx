@@ -8,9 +8,6 @@ const Navbar = () => {
 
     const { userInfo, userLogOut, setUser } = use(AuthContext)
 
-
-
-
     const userLogOutFunc = () => {
         userLogOut()
             .then(
